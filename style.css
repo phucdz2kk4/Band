@@ -397,9 +397,11 @@ body{
 .an-chau{
     font-size: 18px;
     padding: 26px;
+    
 }
 .an-chau .wrap{ 
     display: flex;
+    align-items: center;
 }
 .an-con{
     display: flex;
