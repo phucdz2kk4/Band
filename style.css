@@ -149,7 +149,9 @@ body{
     text-align: center;
     
     
+    
 }
+
 #content .selection-sub-heading{
     font-size: 16px;
     margin-top: 15px;
@@ -165,6 +167,7 @@ body{
 #content .about-text{
     line-height: 1.5;
 }
+
 .member-list{
     display: flex;      /* phan nay la flex chinh trang */      
     justify-content: center; /* phan nay la flex chinh trang */
@@ -286,10 +289,6 @@ body{
     padding-bottom: 312px;
 }
 
-#footer{
-
-}
-
 .modal{
     position: fixed;
     top: 0;
@@ -393,6 +392,11 @@ body{
 .contact .container{
     width: 800px;
     margin: 0 auto;
+    
+}
+.an-chau{
+    font-size: 18px;
+    padding: 26px;
 }
 .an-chau .wrap{ 
     display: flex;
@@ -404,11 +408,54 @@ body{
 }
 .an-chau-right .an-email{
     display: block;
-    
+    width: 100%;
 }
+.an-chau-right{
+
+    margin-right: -40px;
+    padding: 38px;
+}
+
 #an-submit{
     float: right;
+    background-color: #000;
+    color: #fff;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px 16px;
 }
+#an-submit:hover{
+    background-color: bisque;
+    color: #000;
+    cursor: pointer;
+}
+.an-name{
+    padding: 14px;
+}
+.an-email{
+    padding: 8px;
+    margin-top: 13px;
+    padding: 12px;
+}
+.icon-an{
+    margin: 10px;
+}
+.image-city{
+    width: 100%;
+}
+.footer{
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-size: 24px;
+    opacity: 0.6;
+}
+.end-icon{
+    font-size: 18px;
+    padding: 18px;
+}
+
+
 
 
 
