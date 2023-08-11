@@ -306,7 +306,7 @@ body{
     width: 900px;
     min-height: 200px;
     position: relative;
-    animation: phuc 0.4s;
+    animation: phuc 1s;
 }
 .modal-header{
     background-color: #009688;
@@ -458,6 +458,11 @@ body{
     font-size: 18px;
     padding: 18px;
 }
+/*
+    pc >= 1024px
+    tablet: >= 740px & < 1024px
+    moblie < 740px
+ */
 
 
 
