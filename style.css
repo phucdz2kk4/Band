@@ -353,6 +353,7 @@ body{
     font-size: 15px;
     padding: 16px;
     cursor: pointer;
+    border: none;
 }
 #buy-tickets:hover{
     background-color: bisque;
@@ -458,11 +459,7 @@ body{
     font-size: 18px;
     padding: 18px;
 }
-/*
-    pc >= 1024px
-    tablet: >= 740px & < 1024px
-    moblie < 740px
- */
+
 
 
 

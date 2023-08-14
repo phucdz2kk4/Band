@@ -1,0 +1,31 @@
+/*
+    pc >= 1024px
+    tablet: >= 740px & < 1024px
+    moblie < 740px
+ */
+
+/* PC */
+@media (min-width: 1024px){
+
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px){
+
+}
+/* Moblie */
+@media (max-width: 740px){
+    #slider{
+        height: 310px;
+        padding: 416px;
+        background-size: cover;
+        position: relative;
+        background-image: url(https://www.w3schools.com/w3images/chicago.jpg);
+        
+    }
+}
+
+
+
+
+
+
